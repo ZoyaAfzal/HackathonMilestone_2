@@ -44,12 +44,21 @@
 
         <fieldset>
             <legend>Skills</legend>
-            <label for="Skills">Experience:</label>
-            <textarea id="skills" name="skills" rows="4" required></textarea><br>
+            <button type="button" id="toggleSkills" >Show Skills</button>
+            <div id="skills-container" >
+                <label for="skills">Skills:</label>
+                <textarea id="skills" name="skills" rows="4" required></textarea><br>
+            </div>
         </fieldset>
 
-        <button type="submit">Generate Your Resume Now</button>
+        <button type="submit">Submit Your Resume</button>
 
-    </form>
+    </form>  
+    <div id="submissionMessage" style="display: none; font-weight: bold; margin-top: 10px; text-align: center; color:#07465f; ">
+        Your Resume has been submitted!
+    </div>
+
+
+    <script src="staticResume.js"></script>
 </body>
 </html>

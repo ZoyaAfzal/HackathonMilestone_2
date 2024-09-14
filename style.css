@@ -19,7 +19,7 @@ body {
 
 h2 {
     text-align: center;
-    color: #022d3e;
+    color: #07465f;
 }
 
 form {
@@ -76,4 +76,18 @@ button {
 
 button-hover {
     background-color: #3498bd ;
+}
+
+
+#toggleSkills {
+    width: 12%; 
+    display:block;  
+    justify-items: center; 
+    background-color:#b5e4f5; 
+    color:#145b75; 
+    font-size: small; 
+    font-weight: bold; 
+    margin-bottom: 3px; 
+
+
 }
